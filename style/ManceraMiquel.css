@@ -1,0 +1,6 @@
+.elementVisible {
+    display:flex;
+}
+.elementOcult{
+    display:none;
+}

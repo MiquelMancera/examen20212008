@@ -13,12 +13,12 @@
     </header>
     <main>
 
-      <article class="elementVisibleMMB">
+      <article class="elementVisibleMMB" id="iniciMMB">
         <span class="titol negre">MP06 - UF03<br>Activitat avaluativa</span>
         <span class="subtitol vermell">8 de febrer de 2021</span>
         <div class="botons espaientrebotonsMMB">
           <button class="boto inactiu" disabled onclick="mostraAlerta();">&lt;&lt;&nbsp;Anterior</button>
-          <button class="boto actiu"   onclick="mostraAlerta();">Següent &gt;&gt;</button>
+          <button class="boto actiu"   onclick="passaSeguentMMB(this);">Següent &gt;&gt;</button>
         </div>
       </article>
 
@@ -45,7 +45,7 @@
         </div>
         <div class="botons espaientrebotonsMMB">
           <button class="boto actiu" onclick="mostraAlerta();">&lt;&lt;&nbsp;Anterior</button>
-          <button class="boto actiu" onclick="mostraAlerta();">Següent&nbsp;&gt;&gt;</button>
+          <button class="boto actiu" onclick="passaSeguentMMB(this);">Següent&nbsp;&gt;&gt;</button>
         </div>
       </article>
 
@@ -83,7 +83,7 @@
         </div>
         <div class="botons espaientrebotonsMMB">
           <button class="boto actiu" onclick="mostraAlerta();">&lt;&lt;&nbsp;Anterior</button>
-          <button class="boto actiu" onclick="mostraAlerta();">Següent&nbsp;&gt;&gt;</button>
+          <button class="boto actiu" onclick="passaSeguentMMB(this);">Següent&nbsp;&gt;&gt;</button>
         </div>
       </article>
     </main>
@@ -91,5 +91,6 @@
     <script src="./js/examen.js"></script>
     <script src="./js/matrius.js"></script>
     <script src="./js/operacions.js"></script>
+    <script src="./js/seguentManceraMiquel.js"></script>
   </body>
 </html>

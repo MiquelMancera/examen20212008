@@ -4,6 +4,7 @@
 .elementOcultMMB{
     display:none;
 }
-.EspaiEntreBotonsMMB{
-    margin-right:60% !important;
+.espaientrebotonsMMB{
+    display: flex;
+    justify-content: space-between;
 }
